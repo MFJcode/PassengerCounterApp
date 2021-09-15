@@ -19,6 +19,7 @@ function save() {
     // NB: Make sure to not delete the existing content of the paragraph
     saveEl.textContent += countStr
 
+    // Set the count to 0
     countEl.textContent = 0
     count = 0
 }
